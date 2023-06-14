@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "sourceType": "module",
+    "parser": "@babel/eslint-parser"
+  },
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-empty": "warn"
+  }
+}

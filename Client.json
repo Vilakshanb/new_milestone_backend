@@ -1,0 +1,206 @@
+{
+    "elements": [
+        {
+            "type": "element",
+            "name": "DataSet",
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "xs:schema",
+                    "attributes": {
+                        "id": "NMFIISERVICES",
+                        "xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                        "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "xs:element",
+                            "attributes": {
+                                "name": "NMFIISERVICES",
+                                "msdata:IsDataSet": "true",
+                                "msdata:UseCurrentLocale": "true"
+                            },
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "xs:complexType",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "xs:choice",
+                                            "attributes": {
+                                                "minOccurs": "0",
+                                                "maxOccurs": "unbounded"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "xs:element",
+                                                    "attributes": {
+                                                        "name": "service_response"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "xs:complexType",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "element",
+                                                                    "name": "xs:sequence",
+                                                                    "elements": [
+                                                                        {
+                                                                            "type": "element",
+                                                                            "name": "xs:element",
+                                                                            "attributes": {
+                                                                                "name": "return_msg",
+                                                                                "type": "xs:string",
+                                                                                "minOccurs": "0"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "xs:element",
+                                                    "attributes": {
+                                                        "name": "service_status"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "xs:complexType",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "element",
+                                                                    "name": "xs:sequence",
+                                                                    "elements": [
+                                                                        {
+                                                                            "type": "element",
+                                                                            "name": "xs:element",
+                                                                            "attributes": {
+                                                                                "name": "service_return_code",
+                                                                                "type": "xs:string",
+                                                                                "minOccurs": "0"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "element",
+                                                                            "name": "xs:element",
+                                                                            "attributes": {
+                                                                                "name": "service_msg",
+                                                                                "type": "xs:string",
+                                                                                "minOccurs": "0"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "diffgr:diffgram",
+                    "attributes": {
+                        "xmlns:diffgr": "urn:schemas-microsoft-com:xml-diffgram-v1",
+                        "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "NMFIISERVICES",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "service_response",
+                                    "attributes": {
+                                        "diffgr:id": "service_response1",
+                                        "msdata:rowOrder": "0",
+                                        "diffgr:hasChanges": "inserted"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "return_msg",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Error occurred while processing GetCreateCustomerDetails"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "service_response",
+                                    "attributes": {
+                                        "diffgr:id": "service_response2",
+                                        "msdata:rowOrder": "1",
+                                        "diffgr:hasChanges": "inserted"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "return_msg",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Error occurred while processing CreateCustomer"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "service_status",
+                                    "attributes": {
+                                        "diffgr:id": "service_status2",
+                                        "msdata:rowOrder": "0",
+                                        "diffgr:hasChanges": "inserted"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "service_return_code",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "service_msg",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Failure"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

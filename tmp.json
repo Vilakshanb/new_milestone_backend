@@ -1,0 +1,1543 @@
+{
+  "elements": [
+    {
+      "type": "element",
+      "name": "DataSet",
+      "elements": [
+        {
+          "type": "element",
+          "name": "diffgr:diffgram",
+          "attributes": {
+            "xmlns:diffgr": "urn:schemas-microsoft-com:xml-diffgram-v1",
+            "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "NewDataSet",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master1",
+                    "msdata:rowOrder": "0",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "AN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Andaman and Nicobar Islands"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master2",
+                    "msdata:rowOrder": "1",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "AP"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Andhra Pradesh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "10-SEP-2015"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master3",
+                    "msdata:rowOrder": "2",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "AR"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Arunachal Pradesh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master4",
+                    "msdata:rowOrder": "3",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "AS"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Assam"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master5",
+                    "msdata:rowOrder": "4",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "BH"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Bihar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master6",
+                    "msdata:rowOrder": "5",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "CH"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Chandigarh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master7",
+                    "msdata:rowOrder": "6",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "CG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Chhattisgarh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master8",
+                    "msdata:rowOrder": "7",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "DN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Dadra and Nagar Haveli"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master9",
+                    "msdata:rowOrder": "8",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "DD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Daman and Diu"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master10",
+                    "msdata:rowOrder": "9",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "GO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Goa"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master11",
+                    "msdata:rowOrder": "10",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "GU"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Gujarat"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master12",
+                    "msdata:rowOrder": "11",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "HA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Haryana"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master13",
+                    "msdata:rowOrder": "12",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "HP"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Himachal Pradesh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master14",
+                    "msdata:rowOrder": "13",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "KR"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Jammu and Kashmir"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master15",
+                    "msdata:rowOrder": "14",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "JD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Jharkhand"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master16",
+                    "msdata:rowOrder": "15",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "KA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Karnataka"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master17",
+                    "msdata:rowOrder": "16",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "KE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Kerala"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master18",
+                    "msdata:rowOrder": "17",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "LD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Lakshadweep"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master19",
+                    "msdata:rowOrder": "18",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "MP"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Madhya Pradesh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master20",
+                    "msdata:rowOrder": "19",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "MA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Maharashtra"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master21",
+                    "msdata:rowOrder": "20",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "MN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Manipur"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master22",
+                    "msdata:rowOrder": "21",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ME"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Meghalaya"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master23",
+                    "msdata:rowOrder": "22",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "MI"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Mizoram"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master24",
+                    "msdata:rowOrder": "23",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Nagaland"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master25",
+                    "msdata:rowOrder": "24",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ND"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "New Delhi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master26",
+                    "msdata:rowOrder": "25",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "OD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ODISHA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master27",
+                    "msdata:rowOrder": "26",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "OT"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Others"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master28",
+                    "msdata:rowOrder": "27",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "PO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Puducherry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master29",
+                    "msdata:rowOrder": "28",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "PU"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Punjab"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master30",
+                    "msdata:rowOrder": "29",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "RA"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Rajasthan"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master31",
+                    "msdata:rowOrder": "30",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "SI"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Sikkim"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master32",
+                    "msdata:rowOrder": "31",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "TN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Tamil Nadu"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master33",
+                    "msdata:rowOrder": "32",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "TE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Telangana"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "03-OCT-2015"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master34",
+                    "msdata:rowOrder": "33",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "TR"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Tripura"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master35",
+                    "msdata:rowOrder": "34",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "UP"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Uttar Pradesh"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master36",
+                    "msdata:rowOrder": "35",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "UR"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Uttarakhand"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "state_master",
+                  "attributes": {
+                    "diffgr:id": "state_master37",
+                    "msdata:rowOrder": "36",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "STATE_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "WB"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "STATE_NAME",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "West Bengal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "30-JUN-2014"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

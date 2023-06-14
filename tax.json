@@ -1,0 +1,3894 @@
+{
+  "elements": [
+    {
+      "type": "element",
+      "name": "DataSet",
+      "elements": [
+        {
+          "type": "element",
+          "name": "xs:schema",
+          "attributes": {
+            "id": "NewDataSet",
+            "xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+            "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "xs:element",
+              "attributes": {
+                "name": "NewDataSet",
+                "msdata:IsDataSet": "true",
+                "msdata:UseCurrentLocale": "true"
+              },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "xs:complexType",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "xs:choice",
+                      "attributes": {
+                        "minOccurs": "0",
+                        "maxOccurs": "unbounded"
+                      },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "xs:element",
+                          "attributes": {
+                            "name": "service_status"
+                          },
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "xs:complexType",
+                              "elements": [
+                                {
+                                  "type": "element",
+                                  "name": "xs:sequence",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "rows_count",
+                                        "type": "xs:string",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "service_return_code",
+                                        "type": "xs:string",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "service_msg",
+                                        "type": "xs:string",
+                                        "minOccurs": "0"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "xs:element",
+                          "attributes": {
+                            "name": "tax_master"
+                          },
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "xs:complexType",
+                              "elements": [
+                                {
+                                  "type": "element",
+                                  "name": "xs:sequence",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "TAX_STATUS_CODE",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "TAX_STATUS_DESC",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "MINOR_FLAG",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "CORPORATE_FLAG",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "NOMINEE_FLAG",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "RESIDENT_FLAG",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "JOINTHOLDERS_FLAG",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "xs:element",
+                                      "attributes": {
+                                        "name": "LAST_MODIFIED_DATE",
+                                        "type": "xs:string",
+                                        "default": "",
+                                        "minOccurs": "0"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "diffgr:diffgram",
+          "attributes": {
+            "xmlns:diffgr": "urn:schemas-microsoft-com:xml-diffgram-v1",
+            "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "NewDataSet",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "service_status",
+                  "attributes": {
+                    "diffgr:id": "service_status1",
+                    "msdata:rowOrder": "0",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "rows_count",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "service_return_code",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "service_msg",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Record retrieved successfully"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master1",
+                    "msdata:rowOrder": "0",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "11 - NRI (NRO A/C)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master2",
+                    "msdata:rowOrder": "1",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21 - Non Resident Indiv ( NRE )"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-APR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master3",
+                    "msdata:rowOrder": "2",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "05"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "AOP/BOI"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master4",
+                    "msdata:rowOrder": "3",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Bank / Financial Institution"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master5",
+                    "msdata:rowOrder": "4",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "07"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Body Corporate"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master6",
+                    "msdata:rowOrder": "5",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "04"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Company"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master7",
+                    "msdata:rowOrder": "6",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Foreign Inst. Invest"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master8",
+                    "msdata:rowOrder": "7",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Global Development Network"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master9",
+                    "msdata:rowOrder": "8",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "72"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Government Body"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master10",
+                    "msdata:rowOrder": "9",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Gratuity Fund"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master11",
+                    "msdata:rowOrder": "10",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "03"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "HUF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "19-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master12",
+                    "msdata:rowOrder": "11",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "01"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Individual"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "19-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master13",
+                    "msdata:rowOrder": "12",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "47"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Limited Liability Partnership"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master14",
+                    "msdata:rowOrder": "13",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Mutual Fund"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master15",
+                    "msdata:rowOrder": "14",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Mutual Fund FOF Scheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master16",
+                    "msdata:rowOrder": "15",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NPS Trust"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master17",
+                    "msdata:rowOrder": "16",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NRE-HUF(NRE)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-APR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master18",
+                    "msdata:rowOrder": "17",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NRI (MINOR)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master19",
+                    "msdata:rowOrder": "18",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NRI - Minor (NRO)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master20",
+                    "msdata:rowOrder": "19",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NRI - Others"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "13-JUN-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master21",
+                    "msdata:rowOrder": "20",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "NRO-HUF(NRO)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "20-APR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master22",
+                    "msdata:rowOrder": "21",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "48"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Non-Profit organization [NPO]"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master23",
+                    "msdata:rowOrder": "22",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "62"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "OCI - Non-Repatriation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-APR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master24",
+                    "msdata:rowOrder": "23",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "61"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "OCI - Repatriation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "20-APR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master25",
+                    "msdata:rowOrder": "24",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "02"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "On Behalf Of Minor"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master26",
+                    "msdata:rowOrder": "25",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Others"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "13-JUN-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master27",
+                    "msdata:rowOrder": "26",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "22"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Overseas Corp. Body"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master28",
+                    "msdata:rowOrder": "27",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "06"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Partnership Firm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "17-OCT-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master29",
+                    "msdata:rowOrder": "28",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Pension Fund"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master30",
+                    "msdata:rowOrder": "29",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Proprietorship"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master31",
+                    "msdata:rowOrder": "30",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Provident Fund / EPF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master32",
+                    "msdata:rowOrder": "31",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "43"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Corporate"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master33",
+                    "msdata:rowOrder": "32",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "45"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Hedge Funds"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master34",
+                    "msdata:rowOrder": "33",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "41"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Individual"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master35",
+                    "msdata:rowOrder": "34",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "42"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Minors"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "17-MAY-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master36",
+                    "msdata:rowOrder": "35",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "46"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Mutual Funds"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master37",
+                    "msdata:rowOrder": "36",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "44"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "QFI - Pension Funds"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master38",
+                    "msdata:rowOrder": "37",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "09"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Society"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master39",
+                    "msdata:rowOrder": "38",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Superannuation / Pension Fund"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "tax_master",
+                  "attributes": {
+                    "diffgr:id": "tax_master40",
+                    "msdata:rowOrder": "39",
+                    "diffgr:hasChanges": "inserted"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_CODE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "08"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "TAX_STATUS_DESC",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Trust"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "MINOR_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "CORPORATE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "NOMINEE_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "RESIDENT_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "JOINTHOLDERS_FLAG",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "N"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "LAST_MODIFIED_DATE",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "21-MAR-2022"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
